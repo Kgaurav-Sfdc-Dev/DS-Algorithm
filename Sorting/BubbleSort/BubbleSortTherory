@@ -1,2 +1,37 @@
 # Bubble sort is a technique used to sort the DS by swapping adjacent element continiously 
  till  all element in DS become  sorted elememt.
+ 
+ 
+ # Sorting helps in solving many logical questions 
+ 1. largest number in an array 
+ 2 . second largest in an array 
+ 3. and so many 
+ 
+ 
+ 
+ # Algoritm of bubble sort 
+ 
+ 1. take the give array 
+ 2. algorithm will compare the adjacent element  and chages the Position accordingly
+ 3. it will break the array to two parts ie. sorted array and unsorted array 
+ 4. in each iteration one largest element will go and sit to the right of array (sorted part of array )
+ 
+ 
+  --
+ outer loop :-in each execution it will send the largest element to the right most right of array 
+              (sorted Part of the array ) and leave that index for later execution 
+               i=0 to i=6 ;
+               aafter one execution it leave last i=6 
+               and become i=0 to i=5; 
+               because the element at i=6 is correct element after First execution 
+ 
+ inner loop :- it will just compare the adjacent elemt and swap them
+ for(int i=arr.length-1;i>0;i--)
+ {
+
+ for(int j=0;j<i;j++)
+ {
+  //swapping code 
+ 
+ }
+ }
