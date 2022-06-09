@@ -8,6 +8,10 @@
  3. and so many 
  
  
+ Details :
+ Time complexity O(n2)
+ we can optimize the code while not going to the sorted array part inside the innser loop 
+ 
  
  # Algoritm of bubble sort 
  
