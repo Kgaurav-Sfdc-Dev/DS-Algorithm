@@ -2,6 +2,9 @@
  till  all element in DS become  sorted elememt.
  
  
+ 
+ 
+ 
  # Sorting helps in solving many logical questions 
  1. largest number in an array 
  2 . second largest in an array 
@@ -9,6 +12,7 @@
  
  
  Details :
+ Bubble sort is Stable Sort 
  Time complexity O(n2)
  we can optimize the code while not going to the sorted array part inside the innser loop 
  
