@@ -7,7 +7,9 @@ public class  BubbleSort {
         {
             for(int j=0;j<i;j++)
             {
-                if(arr[j] > arr[j+1])
+                  
+                //if(arr[j]< arr[j+1]  //descending order 
+                if(arr[j] > arr[j+1])  //ascending order 
                 {
                     int temp =arr[j];
                     arr[j]=arr[j+1];
